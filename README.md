@@ -57,7 +57,10 @@
 
 ## 推論測試與發現 (Inference & Demo)
 
-我們在 Kneo Pi 上執行 `KL730_v5su_fix.py` 進行即時影像與靜態圖片推論。
+我們在 Kneo Pi 上執行：
+* `KL730_image_inference.py` 靜態圖片推論
+* `KL730_video_inference` 影片推論
+* `KL730_realtime_inference` 即時推論
 
 ### 關鍵觀察
 1. **分數 M 型化現象**：在硬體推論時，信心分數呈現兩極化 (通常為 0.50 或 0.99)。這是由於 NPU 進行 Int8 量化運算，配合移除 Sigmoid 函數後的陡峭特性所產生的正常現象，證明 NPU 硬體加速正在正常運作。
