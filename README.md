@@ -1,7 +1,4 @@
 # Task 2 - Hand Gesture Localization & Optimization 
-
-**Author:** 王亦丞 (Eden Wang) 
-
 ## 專案簡介
 本專案旨在訓練一個高精度的手勢辨識模型，並透過模型優化與量化技術，成功將其部署於 Kneron KL730 (Kneo Pi) 邊緣運算加速裝置上，進行即時的影像推論。
 
