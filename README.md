@@ -62,8 +62,25 @@
 * `KL730_video_inference` 影片推論
 * `KL730_realtime_inference` 即時推論
 
+### 結果呈現
+1. 近距離拍攝
+![IMG_5509_result](https://github.com/user-attachments/assets/52f8cf82-164a-417a-9a69-b9a66382a469)
+2. 生活照
+![IMG_5481_result](https://github.com/user-attachments/assets/e380ca1e-17d9-43ba-83e2-b47353bbdd36)
+3. 影片推論
+https://github.com/user-attachments/assets/7bf4c4f8-d3bf-447e-993e-251fbfc365f6
+
 ### 關鍵觀察
 1. **分數 M 型化現象**：在硬體推論時，信心分數呈現兩極化 (通常為 0.50 或 0.99)。這是由於 NPU 進行 Int8 量化運算，配合移除 Sigmoid 函數後的陡峭特性所產生的正常現象，證明 NPU 硬體加速正在正常運作。
 2. **距離限制**：在即時推論 (Real-time) 或是部分靜態測試 (如 Rejection 手勢) 時，鏡頭太過靠近會導致無法偵測，需要保持一段適當的距離才能達到最佳辨識效果。
 3. **即時追蹤穩定度**：在動態變換手勢 (如從 Thumbs-up 變換為 Two-hands-Heart) 時，模型依舊能精準辨識，且偵測框能穩定跟隨手勢移動。
 4. **複雜場景的誤判**：在生活照測試中，發現偶爾會將 Front-V 與 Seven 搞混 (可能受角度影響)，或是發生同一個區塊重複標記的現象。未知的無效手勢大多能被正確過濾而不被標記。
+
+---
+
+
+
+
+
+
+
