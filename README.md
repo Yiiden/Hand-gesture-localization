@@ -61,10 +61,10 @@
 
 ### 結果呈現
 1. 近距離拍攝
-![IMG_5509_result](https://github.com/user-attachments/assets/52f8cf82-164a-417a-9a69-b9a66382a469)
+![IMG_5481_result](https://github.com/user-attachments/assets/e380ca1e-17d9-43ba-83e2-b47353bbdd36)
 
 2. 生活照
-![IMG_5481_result](https://github.com/user-attachments/assets/e380ca1e-17d9-43ba-83e2-b47353bbdd36)
+![IMG_5509_result](https://github.com/user-attachments/assets/52f8cf82-164a-417a-9a69-b9a66382a469)
 
 3. 影片推論
 https://github.com/user-attachments/assets/7bf4c4f8-d3bf-447e-993e-251fbfc365f6
