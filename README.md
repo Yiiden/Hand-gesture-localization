@@ -69,6 +69,10 @@
 3. 影片推論
 https://github.com/user-attachments/assets/7bf4c4f8-d3bf-447e-993e-251fbfc365f6
 
+4. 即時推論
+
+https://github.com/user-attachments/assets/9c0a103f-156d-4774-a34b-cbeb3abe6a78
+
 ### 關鍵觀察
 1. **分數 M 型化現象**：在硬體推論時，信心分數呈現兩極化 (通常為 0.50 或 0.99)。這是由於 NPU 進行 Int8 量化運算，配合移除 Sigmoid 函數後的陡峭特性所產生的正常現象，證明 NPU 硬體加速正在正常運作。
 2. **距離限制**：在即時推論 (Real-time) 或是部分靜態測試 (如 Rejection 手勢) 時，鏡頭太過靠近會導致無法偵測，需要保持一段適當的距離才能達到最佳辨識效果。
